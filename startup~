@@ -23,7 +23,7 @@ nm-applet &
 # Comment=Connect to KWallet PAM socket
 # Tomado de: /etc/xdg/autostart/pam_kwallet_init.desktop
 #/usr/lib/i386-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
-# tomado de /opt/trinity/share/autostart/polkit-agent-tde.desktop
+#
 /opt/trinity/bin/polkit-agent-tde
 
 # Name= KDE Connect
