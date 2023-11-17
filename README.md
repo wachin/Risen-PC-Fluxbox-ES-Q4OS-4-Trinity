@@ -55,8 +55,8 @@ A continuación les dejaré dos maneras de instalar RisenPC Fluxbox ES, la prime
 Copie todo de una sola vez  (también si no le funciona copie uno por uno):
 
 ```
-    git clone https://github.com/wachin/Risen-PC-Fluxbox-Debian-11-KDE
-    mv Risen-PC-Fluxbox-Debian-11-KDE ~/.fluxbox
+    git clone https://github.com/wachin/Risen-PC-Fluxbox-ES-Q4OS-4-Trinity
+    mv Risen-PC-Fluxbox-ES-Q4OS-4-Trinity ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
     cp config ~/.config/pnmixer/ && cd && echo "Dios les bendiga"
