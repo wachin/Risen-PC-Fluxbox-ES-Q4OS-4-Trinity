@@ -82,7 +82,7 @@ xinput-gui &
 #geany &
 
 # Poner el bloque de notas :
-sleep 5; knotes &
+sleep 5; noblenote &
 
 # Aplicacion para poder expulsar USB, Pendrives
 mx-usb-unmounter &

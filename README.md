@@ -22,7 +22,7 @@ Con lo siguiente instalaremos las dependencias necesarias:
 
     sudo apt-get install git fluxbox lxappearance lxrandr pnmixer numlockx qt5ct \
     nitrogen gnome-icon-theme gxkb xfce4-appfinder network-manager-gnome \
-    pavucontrol-qt
+    pavucontrol-qt noblenote
 
 dele Enter y poner "s" de que si acepta
 
