@@ -26,26 +26,17 @@ nm-applet &
 # tomado de /opt/trinity/share/autostart/polkit-agent-tde.desktop
 /opt/trinity/bin/polkit-agent-tde
 
-# Name= KDE Connect
-# Name[es]= KDE Connect
+# KDE Connect 32 bit
 # Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
 #/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
 
+# KDE Connect 64 bit
+# Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
+/usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
 
 # Name= KOrganizer Reminder Client
-# Name[es]= Cliente de recordatorio de KOrganizer
-# GenericName= KOrganizer Reminder Daemon Client
-# GenericName[es]= Cliente del demonio de recordatorio de KOrganizer
 # Tomado de: /etc/xdg/autostart/org.kde.korgac.desktop
 #korgac &
-
-
-# KWallet PAM Socket Connection
-# Conexión con el «socket» PAM de KWallet
-#/usr/share/libpam-kwallet-common/pam_kwallet_init &
-
-# Baloo File Daemon
-#baloo_file &
 
 # Name[es]=Sistema de Sonido PulseAudio
 # Comment[es]=Iniciar el Sistema de Sonido PulseAudio
@@ -56,9 +47,6 @@ sleep 2; pnmixer &
 
 # Para que la tecla numerica funcione
 numlockx on &
-
-# Para controlar el brillo en pantalla y la lúz azúl en la noche:
-gammy &
 
 # Terminal de Gnome que funciona bien en Fluxbox
 /usr/bin/konsole &
@@ -85,10 +73,7 @@ xinput-gui &
 sleep 5; noblenote &
 
 # Aplicacion para poder expulsar USB, Pendrives
-mx-usb-unmounter &
-
-# Iniciar el bus de accesibilidad del usuario, si aún no se está ejecutando
-#/usr/libexec/at-spi-bus-launcher --launch-immediately  &
+#mx-usb-unmounter &
 
 # Colocar en el escritorio el último fondo seleccionado
 sleep 10; nitrogen --restore &
