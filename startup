@@ -24,15 +24,18 @@ nm-applet &
 # Tomado de: /etc/xdg/autostart/pam_kwallet_init.desktop
 #/usr/lib/i386-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 # tomado de /opt/trinity/share/autostart/polkit-agent-tde.desktop
-/opt/trinity/bin/polkit-agent-tde
+/opt/trinity/bin/polkit-agent-tde  &
 
-# KDE Connect 32 bit
+# KDE Connect Indicator
+/usr/bin/kdeconnect-indicator &
+
+# KDE Connect 32 bit daemon running in the background
 # Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
 #/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
 
-# KDE Connect 64 bit
+# KDE Connect 64 bit daemon running in the background
 # Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
-/usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+/usr/lib/x86_64-linux-gnu/libexec/kdeconnectd &
 
 # Name= KOrganizer Reminder Client
 # Tomado de: /etc/xdg/autostart/org.kde.korgac.desktop
