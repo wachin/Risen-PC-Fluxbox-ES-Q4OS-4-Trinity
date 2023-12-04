@@ -61,8 +61,7 @@ Copie todo de una sola vez  (también si no le funciona copie uno por uno):
     mv Risen-PC-Fluxbox-ES-Q4OS-4-Trinity ~/.fluxbox
     cd .fluxbox
     mkdir -p ~/.config/pnmixer/
-    cp config ~/.config/pnmixer/
-    echo "Dios les bendiga"
+    cp config ~/.config/pnmixer/ && cd && echo "Dios les bendiga"
 ```
 
 peguelo en una terminal como lo indica la imagen anterior y ejecutelo

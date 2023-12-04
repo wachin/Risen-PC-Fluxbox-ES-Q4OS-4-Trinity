@@ -16,30 +16,18 @@ xmodmap "~/.Xmodmap"
 # Colocar el administrador de red en la barra de herramientas
 nm-applet &
 
+# Administrador de portapapeles | Es posible configurarlo para que pegue solo texto sin formato, y otras cosas más
+copyq &
+
 # Acceso root añadido para ciertas aplicaciones como: Synaptic, Discos, etc
 # PolicyKit Authentication Agent
 # Agente de autenticación de PolicyKit
-# Comment[es]=Conectar con el «socket» PAM de KWallet
-# Comment=Connect to KWallet PAM socket
-# Tomado de: /etc/xdg/autostart/pam_kwallet_init.desktop
-#/usr/lib/i386-linux-gnu/libexec/polkit-kde-authentication-agent-1 &
 # tomado de /opt/trinity/share/autostart/polkit-agent-tde.desktop
 /opt/trinity/bin/polkit-agent-tde  &
 
-# KDE Connect Indicator
-#/usr/bin/kdeconnect-indicator &
-
-# KDE Connect 32 bit daemon running in the background
-# Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
-#/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
-
-# KDE Connect 64 bit daemon running in the background
-# Tomado de: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop
-#/usr/lib/x86_64-linux-gnu/libexec/kdeconnectd &
-
-# Name= KOrganizer Reminder Client
-# Tomado de: /etc/xdg/autostart/org.kde.korgac.desktop
-#korgac &
+# KDE Connect 
+# Tomado de: /usr/share/applications/org.kde.kdeconnect.app.desktop
+kdeconnect-app &
 
 # Name[es]=Sistema de Sonido PulseAudio
 # Comment[es]=Iniciar el Sistema de Sonido PulseAudio
@@ -115,8 +103,8 @@ ksnip &
 
 # Navegadores web, elija cual usar:
 # firefox-esr &
-firefox &
-# chromium &
+#firefox &
+chromium &
 
 # Si Ud usa una impresora HP deberá de instalar HPLIP instále: sudo apt-get install hplip-gui
 # para lanzarlo se puede desde las aplicaciones instaladas 
