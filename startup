@@ -25,9 +25,15 @@ copyq &
 # tomado de /opt/trinity/share/autostart/polkit-agent-tde.desktop
 /opt/trinity/bin/polkit-agent-tde  &
 
-# KDE Connect 
+# KDE Connect App
+# Es la ventana que sirve para seleccionar el Dispositivo Android con el cual nos necesitamos conectar
 # Tomado de: /usr/share/applications/org.kde.kdeconnect.app.desktop
 kdeconnect-app &
+
+# KDE Connect Indicator
+# Es el icono indicador
+# Tomado de: /usr/share/applications/org.kde.kdeconnect.nonplasma.desktop
+kdeconnect-indicator &
 
 # Name[es]=Sistema de Sonido PulseAudio
 # Comment[es]=Iniciar el Sistema de Sonido PulseAudio
