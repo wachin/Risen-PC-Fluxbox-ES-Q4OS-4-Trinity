@@ -21,13 +21,18 @@ Con lo siguiente instalaremos las dependencias necesarias:
 
     sudo apt-get install git fluxbox lxappearance lxrandr pnmixer numlockx qt5ct \
     nitrogen gnome-icon-theme xfce4-appfinder network-manager-gnome \
-    pavucontrol-qt noblenote
+    pavucontrol-qt noblenote copyq kdeconnect
 
 dele Enter y poner "s" de que si acepta
 
-gxkb
+## gxkb (opcional)
 
-**Nota:** Para instalarlo en MX Linux 19 debe quitar el paquete gammy.   
+gxkb está en los repositorios de MX Linux 21, sirve para mostrar diferentes teclados, ejemplo español, inglés y otros en el menú de foluxbox. Esos repositorios se los puede instalar siguiendo las siguientes instrucciones:
+
+**Cómo añadir el repositorio de MX Linux a Sistemas Operativos Linux basados en Debian 12, 11, 10**
+https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html
+
+más abajo hay indicaciones sobre los teclados disponibles en el menú mencionado.
 
 # Borre los estilos del paquete de Fluxbox  
 
@@ -82,19 +87,7 @@ Esta es la segunda manera de instalar RisenPC Fluxbox si usted es un desarrollad
 
 [RisenPC-for-DEV.md](RisenPC-for-DEV.md)
 
-# Configurar qt5ct utilidad de configuración de Qt5
 
-Esto  es necesario para las aplicaciones que han sido escritas en Qt (KDE)  como por ejemplo Dolphin, Kate, etc para poder elegir los iconos y temas  de ellas
-
-Ponga en una terminal:
-
-```
- echo "export QT_QPA_PLATFORMTHEME="qt5ct"" >> ~/.profile
-```
-
-  Con esto hemos añadido esa última línea al archivo oculto .profile
-
-**Nota**: Esto funciona al reinicio
 
 
 # Instalar Menú de aplicaciones con iconos, con xdgmenumaker
@@ -317,7 +310,12 @@ le puse este atajo de teclado porque para mi es más fácil de usar, pero si ust
 
 # Control de brillo para evitar cansancio ocular
 
-Gammy está en los repositorios de MX Linux 21 y si ha hecho esta instalación allí pues ya está instalado pues lo he incluido en el archivo .fluxbox/startup al autoinicio
+Gammy está en los repositorios de MX Linux 21, estos repositorios se los puede instalar siguiendo las siguientes instrucciones:
+
+**Cómo añadir el repositorio de MX Linux a Sistemas Operativos Linux basados en Debian 12, 11, 10**
+https://facilitarelsoftwarelibre.blogspot.com/2023/11/como-anadir-el-repositorio-de-mx-linux-en-basados-en-debian.html
+
+ y si ha hecho esta instalación allí pues ya está instalado pues lo he incluido en el archivo .fluxbox/startup al autoinicio
 
 Ese archivo lo puede abrir desde el menú:  
 
